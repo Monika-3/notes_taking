@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@uiw/react-markdown-editor": "^6.1.4",
-    "@wcj/dark-mode": "^1.1.0",
     "next": "15.5.2",
     "react": "19.1.0",
     "react-dom": "19.1.0"
