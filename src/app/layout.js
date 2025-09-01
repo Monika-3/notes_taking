@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "./globals.css";
 
 export const metadata = {
@@ -19,11 +20,11 @@ export default function RootLayout({ children }) {
                 />
               </div>
             </div>
-            <span><a className="btn btn-ghost text-xl" href="/">NOTEZ</a></span>
+            <span><Link className="btn btn-ghost text-xl" href="/">NOTEZ</Link></span>
           </div>
           <div className="flex-none menu menu-horizontal px-1">
-            <a className="btn btn-ghost text-m">My Notes</a>
-            <a className="btn btn-ghost text-m" href="/sections/how_to">use Tips</a>
+            <Link className="btn btn-ghost text-m">My Notes</Link>
+            <Link className="btn btn-ghost text-m" href="/sections/how_to">use Tips</Link>
           </div>
         </div>
 

@@ -19,7 +19,7 @@ function Notes() {
   }
   return (
     <>
-      <div className="flex justify-around h-[70vh] pl-8 pt-5">
+      <div className="flex justify-around h-[70vh] mx-auto pt-5">
         <div className="flex flex-col justify-around border border-solid p-5">
           <input
             type="text"
