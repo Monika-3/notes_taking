@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
             <span><Link className="btn btn-ghost text-xl" href="/">NOTEZ</Link></span>
           </div>
           <div className="flex-none menu menu-horizontal px-1">
-            <Link className="btn btn-ghost text-m">My Notes</Link>
+            <Link className="btn btn-ghost text-m" href="/">My Notes</Link>
             <Link className="btn btn-ghost text-m" href="/sections/how_to">use Tips</Link>
           </div>
         </div>
