@@ -1,8 +1,14 @@
 "use client";
 
-import MarkdownEditor from "@uiw/react-markdown-editor";
 
 import { useState } from "react";
+import dynamic from "next/dynamic";
+
+const MarkdownEditor = dynamic(
+  () => import("@uiw/react-markdown-editor"),
+  { ssr: false }
+);
+
 
 function Notes() {
   const [title, setTitle] = useState("");
